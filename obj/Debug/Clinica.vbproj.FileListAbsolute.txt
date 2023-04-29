@@ -1,0 +1,7 @@
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.SuggestedBindingRedirects.cache
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.Form2.resources
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.Resources.resources
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
