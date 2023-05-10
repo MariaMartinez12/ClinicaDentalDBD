@@ -29,17 +29,25 @@ Partial Class FormPrincipal
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox = New System.Windows.Forms.GroupBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.IconButton1 = New FontAwesome.Sharp.IconButton()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.dg_registro = New System.Windows.Forms.DataGridView()
         Me.TextBox21 = New System.Windows.Forms.TextBox()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.Nuevo = New System.Windows.Forms.Button()
+        Me.bt_eliminar = New System.Windows.Forms.Button()
         Me.bt_guardar = New System.Windows.Forms.Button()
         Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.TextBox19 = New System.Windows.Forms.TextBox()
         Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.Txt_telefono = New System.Windows.Forms.TextBox()
+        Me.Txt_sexo = New System.Windows.Forms.TextBox()
+        Me.Txt_cedula = New System.Windows.Forms.TextBox()
         Me.txt_nombres = New System.Windows.Forms.TextBox()
         Me.txt_apellidos = New System.Windows.Forms.TextBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
@@ -59,10 +67,14 @@ Partial Class FormPrincipal
         Me.Label13 = New System.Windows.Forms.Label()
         Me.ClinicaDBDataSet = New Clinica.ClinicaDBDataSet()
         Me.ClinicaDBDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Label27 = New System.Windows.Forms.Label()
         Me.GroupBox3.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox4.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dg_registro, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ClinicaDBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ClinicaDBDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,7 +105,7 @@ Partial Class FormPrincipal
         '
         Me.PictureBox2.ErrorImage = Nothing
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(735, 18)
+        Me.PictureBox2.Location = New System.Drawing.Point(821, 18)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(186, 130)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -113,18 +125,23 @@ Partial Class FormPrincipal
         'GroupBox
         '
         Me.GroupBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.GroupBox.Controls.Add(Me.Label27)
+        Me.GroupBox.Controls.Add(Me.PictureBox6)
+        Me.GroupBox.Controls.Add(Me.Button1)
+        Me.GroupBox.Controls.Add(Me.IconButton1)
+        Me.GroupBox.Controls.Add(Me.PictureBox5)
+        Me.GroupBox.Controls.Add(Me.PictureBox4)
+        Me.GroupBox.Controls.Add(Me.GroupBox4)
         Me.GroupBox.Controls.Add(Me.dg_registro)
         Me.GroupBox.Controls.Add(Me.TextBox21)
         Me.GroupBox.Controls.Add(Me.Label26)
-        Me.GroupBox.Controls.Add(Me.Nuevo)
+        Me.GroupBox.Controls.Add(Me.bt_eliminar)
         Me.GroupBox.Controls.Add(Me.bt_guardar)
         Me.GroupBox.Controls.Add(Me.TextBox20)
         Me.GroupBox.Controls.Add(Me.TextBox19)
         Me.GroupBox.Controls.Add(Me.TextBox18)
-        Me.GroupBox.Controls.Add(Me.TextBox17)
-        Me.GroupBox.Controls.Add(Me.TextBox16)
-        Me.GroupBox.Controls.Add(Me.TextBox15)
+        Me.GroupBox.Controls.Add(Me.Txt_telefono)
+        Me.GroupBox.Controls.Add(Me.Txt_sexo)
+        Me.GroupBox.Controls.Add(Me.Txt_cedula)
         Me.GroupBox.Controls.Add(Me.txt_nombres)
         Me.GroupBox.Controls.Add(Me.txt_apellidos)
         Me.GroupBox.Controls.Add(Me.TextBox12)
@@ -150,13 +167,98 @@ Partial Class FormPrincipal
         Me.GroupBox.TabStop = False
         Me.GroupBox.Text = "Datos Generales del Paciente"
         '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(902, 417)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(33, 33)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox6.TabIndex = 42
+        Me.PictureBox6.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Location = New System.Drawing.Point(938, 417)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(130, 34)
+        Me.Button1.TabIndex = 41
+        Me.Button1.Text = "Crear factura"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'IconButton1
+        '
+        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.Backspace
+        Me.IconButton1.IconColor = System.Drawing.Color.Black
+        Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton1.Location = New System.Drawing.Point(0, 25)
+        Me.IconButton1.Name = "IconButton1"
+        Me.IconButton1.Size = New System.Drawing.Size(45, 45)
+        Me.IconButton1.TabIndex = 40
+        Me.IconButton1.UseVisualStyleBackColor = True
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(30, 482)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(33, 33)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox5.TabIndex = 39
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(30, 417)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(34, 34)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 38
+        Me.PictureBox4.TabStop = False
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.BackColor = System.Drawing.Color.Aquamarine
+        Me.GroupBox4.Controls.Add(Me.Label27)
+        Me.GroupBox4.Controls.Add(Me.PictureBox3)
+        Me.GroupBox4.Location = New System.Drawing.Point(362, 417)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(366, 57)
+        Me.GroupBox4.TabIndex = 37
+        Me.GroupBox4.TabStop = False
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(3, 10)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(309, 31)
+        Me.Label27.TabIndex = 35
+        Me.Label27.Text = "Registro de Pacientes "
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(318, 10)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(33, 31)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 36
+        Me.PictureBox3.TabStop = False
+        '
         'dg_registro
         '
         Me.dg_registro.BackgroundColor = System.Drawing.Color.CornflowerBlue
         Me.dg_registro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dg_registro.Location = New System.Drawing.Point(159, 499)
+        Me.dg_registro.Location = New System.Drawing.Point(192, 503)
         Me.dg_registro.Name = "dg_registro"
-        Me.dg_registro.Size = New System.Drawing.Size(596, 256)
+        Me.dg_registro.Size = New System.Drawing.Size(691, 256)
         Me.dg_registro.TabIndex = 34
         '
         'TextBox21
@@ -178,21 +280,22 @@ Partial Class FormPrincipal
         Me.Label26.TabIndex = 27
         Me.Label26.Text = "Reporte:"
         '
-        'Nuevo
+        'bt_eliminar
         '
-        Me.Nuevo.BackColor = System.Drawing.Color.Aquamarine
-        Me.Nuevo.Location = New System.Drawing.Point(991, 95)
-        Me.Nuevo.Name = "Nuevo"
-        Me.Nuevo.Size = New System.Drawing.Size(71, 34)
-        Me.Nuevo.TabIndex = 24
-        Me.Nuevo.Text = "Nuevo"
-        Me.Nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Nuevo.UseVisualStyleBackColor = False
+        Me.bt_eliminar.BackColor = System.Drawing.Color.Red
+        Me.bt_eliminar.Location = New System.Drawing.Point(63, 482)
+        Me.bt_eliminar.Name = "bt_eliminar"
+        Me.bt_eliminar.Size = New System.Drawing.Size(84, 34)
+        Me.bt_eliminar.TabIndex = 24
+        Me.bt_eliminar.Text = "Eliminar"
+        Me.bt_eliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.bt_eliminar.UseVisualStyleBackColor = False
         '
         'bt_guardar
         '
-        Me.bt_guardar.BackColor = System.Drawing.Color.Aquamarine
-        Me.bt_guardar.Location = New System.Drawing.Point(987, 147)
+        Me.bt_guardar.BackColor = System.Drawing.Color.RoyalBlue
+        Me.bt_guardar.ForeColor = System.Drawing.Color.Transparent
+        Me.bt_guardar.Location = New System.Drawing.Point(63, 417)
         Me.bt_guardar.Name = "bt_guardar"
         Me.bt_guardar.Size = New System.Drawing.Size(84, 34)
         Me.bt_guardar.TabIndex = 23
@@ -224,26 +327,26 @@ Partial Class FormPrincipal
         Me.TextBox18.Size = New System.Drawing.Size(169, 91)
         Me.TextBox18.TabIndex = 8
         '
-        'TextBox17
+        'Txt_telefono
         '
-        Me.TextBox17.Location = New System.Drawing.Point(472, 73)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(169, 26)
-        Me.TextBox17.TabIndex = 5
+        Me.Txt_telefono.Location = New System.Drawing.Point(472, 73)
+        Me.Txt_telefono.Name = "Txt_telefono"
+        Me.Txt_telefono.Size = New System.Drawing.Size(169, 26)
+        Me.Txt_telefono.TabIndex = 5
         '
-        'TextBox16
+        'Txt_sexo
         '
-        Me.TextBox16.Location = New System.Drawing.Point(472, 144)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(169, 26)
-        Me.TextBox16.TabIndex = 6
+        Me.Txt_sexo.Location = New System.Drawing.Point(472, 144)
+        Me.Txt_sexo.Name = "Txt_sexo"
+        Me.Txt_sexo.Size = New System.Drawing.Size(169, 26)
+        Me.Txt_sexo.TabIndex = 6
         '
-        'TextBox15
+        'Txt_cedula
         '
-        Me.TextBox15.Location = New System.Drawing.Point(472, 221)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(169, 26)
-        Me.TextBox15.TabIndex = 7
+        Me.Txt_cedula.Location = New System.Drawing.Point(472, 221)
+        Me.Txt_cedula.Name = "Txt_cedula"
+        Me.Txt_cedula.Size = New System.Drawing.Size(169, 26)
+        Me.Txt_cedula.TabIndex = 7
         '
         'txt_nombres
         '
@@ -416,16 +519,6 @@ Partial Class FormPrincipal
         Me.ClinicaDBDataSetBindingSource.DataSource = Me.ClinicaDBDataSet
         Me.ClinicaDBDataSetBindingSource.Position = 0
         '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(190, 413)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(309, 31)
-        Me.Label27.TabIndex = 35
-        Me.Label27.Text = "Registro de Pacientes "
-        '
         'FormPrincipal
         '
         Me.ClientSize = New System.Drawing.Size(1104, 952)
@@ -438,6 +531,12 @@ Partial Class FormPrincipal
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox.ResumeLayout(False)
         Me.GroupBox.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dg_registro, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ClinicaDBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ClinicaDBDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
@@ -493,11 +592,11 @@ Partial Class FormPrincipal
     Friend WithEvents TextBox12 As TextBox
     Friend WithEvents Txt_id As TextBox
     Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents Txt_telefono As TextBox
+    Friend WithEvents Txt_sexo As TextBox
+    Friend WithEvents Txt_cedula As TextBox
     Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents Nuevo As Button
+    Friend WithEvents bt_eliminar As Button
     Friend WithEvents bt_guardar As Button
     Friend WithEvents TextBox20 As TextBox
     Friend WithEvents Label26 As Label
@@ -506,4 +605,11 @@ Partial Class FormPrincipal
     Friend WithEvents ClinicaDBDataSetBindingSource As BindingSource
     Friend WithEvents ClinicaDBDataSet As ClinicaDBDataSet
     Friend WithEvents Label27 As Label
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class

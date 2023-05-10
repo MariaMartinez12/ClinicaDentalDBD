@@ -61,3 +61,4 @@ C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Cl
 C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.pdb
 C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.CopyComplete
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Factura.resources

@@ -56,13 +56,14 @@ Public Class Form2
 
             FormPrincipal.Show()
 
-
         Else
             MsgBox("El Nombre de usuario o Contraseña son incorrectos")
 
 
 
         End If
+
+
 
 
 
@@ -76,12 +77,12 @@ Public Class Form2
         Finally
             conexion.Close()
 
-            Me.Close()
 
 
         End Try
 
 
+        Me.Hide()
 
 
     End Sub
