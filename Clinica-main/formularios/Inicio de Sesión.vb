@@ -3,7 +3,7 @@ Imports System.Data.SqlClient
 
 Public Class Form2
 
-    Private conexion As New SqlConnection("Data Source=NORI;Initial Catalog=ClinicaDB;Integrated Security=True")
+    Private conexion As New SqlConnection("Data Source=PC\SQLEXPRESS;Initial Catalog=ClinicaDB;Integrated Security=True")
 
 
     'Esta es una etiqueta para ver que información va a gregar el usuario cuando no este seleccio '
@@ -43,28 +43,49 @@ Public Class Form2
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+
+
         Dim Usuario As String
         Usuario = TxtUsuario.Text
         Dim Contraseña As String
         Contraseña = TxtContraseña.Text
 
         If (Usuario = "Pedro") And (Contraseña = "1234") Then
+
+
             FormPrincipal.Show()
+
         Else
             MsgBox("El Nombre de usuario o Contraseña son incorrectos")
+
+
+
         End If
+
+
+
+
 
         Try
             conexion.Open()
             MsgBox("Conexion exitosa")
+
+
         Catch ex As Exception
             MsgBox(ex.Message)
         Finally
             conexion.Close()
+
+
+
         End Try
+
+
+        Me.Hide()
+
+
     End Sub
-
-
 
 
 End Class
