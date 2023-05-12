@@ -62,3 +62,25 @@ C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Cl
 C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.CopyComplete
 C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Factura.resources
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Factura.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Form2.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.CopyComplete
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Consulta.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Opciones.resources

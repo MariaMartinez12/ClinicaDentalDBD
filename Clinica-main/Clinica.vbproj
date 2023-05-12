@@ -125,6 +125,12 @@
     <Compile Include="formularios\Inicio de Sesión.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="formularios\Opciones.Designer.vb">
+      <DependentUpon>Opciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\Opciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -142,6 +148,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="formularios\Consulta.resx">
+      <DependentUpon>Consulta.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formularios\Factura.resx">
       <DependentUpon>Factura.vb</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formularios\Inicio de Sesión.resx">
       <DependentUpon>Inicio de Sesión.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\Opciones.resx">
+      <DependentUpon>Opciones.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
