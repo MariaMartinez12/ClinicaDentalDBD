@@ -1,0 +1,106 @@
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.SuggestedBindingRedirects.cache
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.Form2.resources
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.Resources.resources
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\AZEPEDA\Desktop\AnaDDB\ProyectoClinica\Clinica\Clinica\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.Form2.resources
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.Form2.resources
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\dayer\Documents\GitHub\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.Form2.resources
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\Anthony Noriaki\Desktop\Uni\Ingeniería en sistemas 2 Mas sistemas que nunca\ClinicaDentalDBD-main\ClinicaDentalDBD\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Form2.resources
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.CopyComplete
+C:\Users\dayer\Desktop\Proyecto01\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Factura.resources
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\Maria Regina\Downloads\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Factura.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.FormPrincipal.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Form2.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.vbproj.CopyComplete
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Consulta.resources
+C:\Users\Maria Regina\OneDrive\Desktop\Clinica-main\obj\Debug\Clinica.Opciones.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Consulta.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Factura.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.FrmInisioSesion.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.FrmOpciones.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Resources.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.GenerateResource.cache
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.CoreCompileInputs.cache
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Database1.mdf
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Database1_log.ldf
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.exe.config
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.exe
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.pdb
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\Clinica.xml
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.Form1.resources
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.CopyComplete
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.exe
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.xml
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.pdb
+C:\Users\dayer\Desktop\Proyecto Final\ClinicaDentalDBD-main\ClinicaDentalDBD-main\Clinica-main\obj\Debug\Clinica.vbproj.AssemblyReference.cache
