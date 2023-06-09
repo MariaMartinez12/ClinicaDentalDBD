@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="20.7.1" version="20.7.1" Modules="professional" RootPath="." Language="es" Id="{B58AC3D2-3F5E-4F83-8694-9A00A165D4EA}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent;CPLAppletComponent;FixupComponent;MsiXDiffComponent;MsixManifestEditorComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Escoja el paquete de instalación para [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_DOTNET_VERSION"/>
+    <ROW Property="AI_REQUIRED_DOTNET_DISPLAY" MultiBuildValue="DefaultBuild:4.0" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_VERSION" MultiBuildValue="DefaultBuild:4.0.1" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Esta base de datos del instalador contiene la lógica y los datos necesarios para instalar [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
+    <ROW Property="ARPPRODUCTICON" Value="logo.exe" Type="8"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="Manufacturer" Value="Equipo Cisco"/>
+    <ROW Property="ProductCode" Value="1033:{E354DADB-9920-4BD4-9B3C-6B53D01AD15F} 3082:{E354DADB-9920-4BD4-9B3C-6B53D01AD15F} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Clínica Dental BD"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{55F8751F-F4B8-4153-9188-EFD3A7113542}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="SqlServerTypes_Dir" Directory_Parent="APPDIR" DefaultDir="SQLSER~1|SqlServerTypes"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="de_Dir" Directory_Parent="APPDIR" DefaultDir="de"/>
+    <ROW Directory="es_Dir" Directory_Parent="APPDIR" DefaultDir="es"/>
+    <ROW Directory="fr_Dir" Directory_Parent="APPDIR" DefaultDir="fr"/>
+    <ROW Directory="it_Dir" Directory_Parent="APPDIR" DefaultDir="it"/>
+    <ROW Directory="ja_Dir" Directory_Parent="APPDIR" DefaultDir="ja"/>
+    <ROW Directory="ko_Dir" Directory_Parent="APPDIR" DefaultDir="ko"/>
+    <ROW Directory="pt_Dir" Directory_Parent="APPDIR" DefaultDir="pt"/>
+    <ROW Directory="ru_Dir" Directory_Parent="APPDIR" DefaultDir="ru"/>
+    <ROW Directory="x64_Dir" Directory_Parent="SqlServerTypes_Dir" DefaultDir="x64"/>
+    <ROW Directory="x86_Dir" Directory_Parent="SqlServerTypes_Dir" DefaultDir="x86"/>
+    <ROW Directory="zhCHS_Dir" Directory_Parent="APPDIR" DefaultDir="zh-CHS"/>
+    <ROW Directory="zhCHT_Dir" Directory_Parent="APPDIR" DefaultDir="zh-CHT"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{5F443151-B7FE-4E1D-B8E3-3EF1EB02AC69}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="APPDIR" ComponentId="{317B0C72-A21D-4C6A-A74D-F2FFDD94A112}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="DiseoJunio.exe" ComponentId="{DC8FA65A-336F-46F0-85ED-3243D19CA05B}" Directory_="APPDIR" Attributes="0" KeyPath="DiseoJunio.exe"/>
+    <ROW Component="DiseoJunio.exe.config" ComponentId="{7BFFF64D-6AA9-4A31-8BDA-FD3F14796898}" Directory_="APPDIR" Attributes="0" KeyPath="DiseoJunio.exe.config" Type="0"/>
+    <ROW Component="EnvDTE.dll" ComponentId="{43316D59-4181-4FAA-9976-22B06FDB2250}" Directory_="APPDIR" Attributes="0" KeyPath="EnvDTE.dll"/>
+    <ROW Component="Microsoft.MSXML.dll" ComponentId="{0504E3CA-1E3F-4CE5-8683-61E64D8744CE}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.MSXML.dll"/>
+    <ROW Component="Microsoft.ReportViewer.Common.dll" ComponentId="{78A9C282-7669-49D5-83B8-5DCB524DA74D}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.dll"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll" ComponentId="{B08FDD6D-947D-44A0-8B57-44F25845E67A}" Directory_="de_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_1" ComponentId="{E52FCE6C-4955-494A-85B7-F758C1A7ABC5}" Directory_="es_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_1"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_2" ComponentId="{8878B2AE-E610-4D80-A21D-7B9DD17DC212}" Directory_="fr_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_2"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_3" ComponentId="{1B260154-A409-4490-A521-3F8ADD82DB30}" Directory_="it_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_3"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_4" ComponentId="{19249FF7-AD7E-427E-864F-3DB495CF2FD1}" Directory_="ja_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_4"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_5" ComponentId="{8B4FCDBE-7D3C-46A3-BF36-DE05F6FE516D}" Directory_="ko_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_5"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_6" ComponentId="{59B2881B-9D58-463B-9BA0-4A9C44051454}" Directory_="pt_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_6"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_7" ComponentId="{5017B33B-C368-463E-B282-57DC674C620C}" Directory_="ru_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_7"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_8" ComponentId="{7B60FDA6-5E2A-4673-A351-A81ABA1E8D44}" Directory_="zhCHS_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_8"/>
+    <ROW Component="Microsoft.ReportViewer.Common.resources.dll_9" ComponentId="{A33959CB-027C-43A9-8970-D375B45DF2E0}" Directory_="zhCHT_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.resources.dll_9"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.dll" ComponentId="{B5FB6ECF-7F33-40E6-A0A2-0D9101530754}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.dll"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll" ComponentId="{6846BAE2-F1EF-4E2D-B17D-6B9E63827046}" Directory_="de_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_1" ComponentId="{AE591983-9464-4F6E-AD44-F2ECD6CC1A82}" Directory_="es_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_1"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_2" ComponentId="{6D80CAA3-F411-42DE-860C-8811FFD1C342}" Directory_="fr_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_2"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_3" ComponentId="{B2A86842-96CF-418C-B11A-7EA130811795}" Directory_="it_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_3"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_4" ComponentId="{090EBF87-5F57-485F-BE34-B9F4A940CCDB}" Directory_="ja_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_4"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_5" ComponentId="{758D6C47-52A9-4A66-9D4C-1A0B6C7AE7C8}" Directory_="ko_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_5"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_6" ComponentId="{3D5CBC3E-E526-4A3F-960D-6868BCD94282}" Directory_="pt_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_6"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_7" ComponentId="{AD6A3396-38EF-461B-8343-1454575B95CA}" Directory_="ru_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_7"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_8" ComponentId="{EC025260-F4F6-4B7D-8498-F17D62BA7620}" Directory_="zhCHS_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_8"/>
+    <ROW Component="Microsoft.ReportViewer.DataVisualization.resources.dll_9" ComponentId="{5F7BF01A-C3C7-44A0-A6BD-DFB86730DC9E}" Directory_="zhCHT_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.DataVisualization.resources.dll_9"/>
+    <ROW Component="Microsoft.ReportViewer.Design.dll" ComponentId="{4F529249-3860-4D75-8D19-65B9A06C7895}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.dll"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll" ComponentId="{0F286A13-9151-4270-A727-C72437F20F52}" Directory_="de_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_1" ComponentId="{405A36A0-BCAD-40B2-A56C-8218ABDEC9EE}" Directory_="es_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_1"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_2" ComponentId="{135EEE8C-3A3B-444E-BBE6-294691507097}" Directory_="fr_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_2"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_3" ComponentId="{25E88A13-D126-475E-88CB-E40DA99F1E9D}" Directory_="it_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_3"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_4" ComponentId="{45DE9543-BF79-4E75-8AC1-066A599849C9}" Directory_="ja_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_4"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_5" ComponentId="{DEF52128-AFB7-4994-9CF1-06F2D5A4BEDB}" Directory_="ko_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_5"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_6" ComponentId="{8BEACC1B-0EE3-4EA3-9956-64EC2FB17220}" Directory_="pt_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_6"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_7" ComponentId="{E1DF79A2-3313-4495-A546-9EC017F98A42}" Directory_="ru_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_7"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_8" ComponentId="{068CB483-E028-4356-A217-9F54938FCED6}" Directory_="zhCHS_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_8"/>
+    <ROW Component="Microsoft.ReportViewer.Design.resources.dll_9" ComponentId="{482B69E0-DCCE-4FA7-B91A-A9DD071F4C08}" Directory_="zhCHT_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.Design.resources.dll_9"/>
+    <ROW Component="Microsoft.ReportViewer.ProcessingObjectModel.dll" ComponentId="{E8A93FA1-F040-49D6-A75C-6A5474F88602}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.ProcessingObjectModel.dll"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.dll" ComponentId="{D8CDF265-F31C-4E66-B2CA-8E659C1C003A}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.dll"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll" ComponentId="{49774EDF-8AC6-4117-B0BC-06D706D6E3F0}" Directory_="de_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_1" ComponentId="{1274C5AB-F868-4366-84B0-E9F0B2B19B54}" Directory_="es_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_1"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_2" ComponentId="{DB2342ED-D426-4509-B02A-3F1F86497E2C}" Directory_="fr_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_2"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_3" ComponentId="{8FD4D3FA-6F36-46E5-9727-D8D6D49663CE}" Directory_="it_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_3"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_4" ComponentId="{8979137C-7549-4EB4-8AAF-C752F09BFD8C}" Directory_="ja_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_4"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_5" ComponentId="{5FEE0BF9-5B6A-42C9-8C79-AACDCBFD29CC}" Directory_="ko_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_5"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_6" ComponentId="{153FAD1C-F590-466A-AED6-379051AC3E47}" Directory_="pt_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_6"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_7" ComponentId="{86E1E934-3432-48BC-9143-4D0196AB1626}" Directory_="ru_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_7"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_8" ComponentId="{694CD435-BD97-422B-92D6-B68D755B9E19}" Directory_="zhCHS_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_8"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.resources.dll_9" ComponentId="{08AB4824-165E-4EF5-95C4-5022559E6DF1}" Directory_="zhCHT_Dir" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.resources.dll_9"/>
+    <ROW Component="Microsoft.SqlServer.Types.dll" ComponentId="{A805AA83-72E5-4E5E-AC61-1A46D5E751A9}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.SqlServer.Types.dll"/>
+    <ROW Component="Microsoft.VisualStudio.OLE.Interop.dll" ComponentId="{5CFBEDCF-BE30-42DA-8217-C1E613F302CB}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualStudio.OLE.Interop.dll"/>
+    <ROW Component="Microsoft.VisualStudio.Shell.Interop.8.0.dll" ComponentId="{32DCBC9B-6956-4B4F-9ACB-016FB7881376}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualStudio.Shell.Interop.8.0.dll"/>
+    <ROW Component="Microsoft.VisualStudio.Shell.Interop.dll" ComponentId="{92BAA2B0-6C26-4F6B-AD7B-585D82FBADC5}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualStudio.Shell.Interop.dll"/>
+    <ROW Component="Microsoft.VisualStudio.TextManager.Interop.8.0.dll" ComponentId="{B74FCD0F-8C8B-4C15-97A2-C780FB963931}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualStudio.TextManager.Interop.8.0.dll"/>
+    <ROW Component="Microsoft.VisualStudio.TextManager.Interop.dll" ComponentId="{B1AFCBFF-4CDA-4EF5-84FC-F94BFFC0D701}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualStudio.TextManager.Interop.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{35DEE741-3523-44E0-92C3-A0FE8028E3CE}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{A9DC3E93-C7E5-45FE-9AAF-2CA39C85CD99}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="SqlServerSpatial140.dll" ComponentId="{C4219991-50D0-4990-A384-E1F934CBBA8B}" Directory_="x64_Dir" Attributes="256" KeyPath="SqlServerSpatial140.dll"/>
+    <ROW Component="SqlServerSpatial140.dll_1" ComponentId="{B46720D4-BD0B-46B1-88DD-FF9EC98C4A2F}" Directory_="x86_Dir" Attributes="0" KeyPath="SqlServerSpatial140.dll_1"/>
+    <ROW Component="msvcr120.dll" ComponentId="{442C57FC-71C0-480E-BC9E-7F8DD8BDF5CB}" Directory_="x64_Dir" Attributes="256" KeyPath="msvcr120.dll"/>
+    <ROW Component="msvcr120.dll_1" ComponentId="{0773FAFB-C671-4CBA-AC5C-15BAAD422882}" Directory_="x86_Dir" Attributes="0" KeyPath="msvcr120.dll_1"/>
+    <ROW Component="stdole.dll" ComponentId="{ACE2F34F-EAC5-4146-932D-350247636C7D}" Directory_="APPDIR" Attributes="0" KeyPath="stdole.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll" Component_="Microsoft.ReportViewer.Common.resources.dll" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll" Component_="Microsoft.ReportViewer.Design.resources.dll" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll" Component_="Microsoft.ReportViewer.WinForms.resources.dll" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="DiseoJunio.exe" Component_="DiseoJunio.exe" FileName="DISEÑO~1.EXE|DiseñoJunio.exe" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\DiseñoJunio.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="DiseoJunio.exe.config" Component_="DiseoJunio.exe.config" FileName="DISEÑO~1.CON|DiseñoJunio.exe.config" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\DiseñoJunio.exe.config" SelfReg="false"/>
+    <ROW File="DiseoJunio.pdb" Component_="DiseoJunio.exe" FileName="DISEÑO~1.PDB|DiseñoJunio.pdb" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\DiseñoJunio.pdb" SelfReg="false"/>
+    <ROW File="DiseoJunio.xml" Component_="DiseoJunio.exe.config" FileName="DISEÑO~1.XML|DiseñoJunio.xml" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\DiseñoJunio.xml" SelfReg="false"/>
+    <ROW File="EnvDTE.dll" Component_="EnvDTE.dll" FileName="EnvDTE.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\EnvDTE.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_1" Component_="Microsoft.ReportViewer.Common.resources.dll_1" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_1" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_1" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_1" Component_="Microsoft.ReportViewer.Design.resources.dll_1" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_1" Component_="Microsoft.ReportViewer.WinForms.resources.dll_1" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_2" Component_="Microsoft.ReportViewer.Common.resources.dll_2" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_2" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_2" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_2" Component_="Microsoft.ReportViewer.Design.resources.dll_2" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_2" Component_="Microsoft.ReportViewer.WinForms.resources.dll_2" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_3" Component_="Microsoft.ReportViewer.Common.resources.dll_3" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_3" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_3" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_3" Component_="Microsoft.ReportViewer.Design.resources.dll_3" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_3" Component_="Microsoft.ReportViewer.WinForms.resources.dll_3" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_4" Component_="Microsoft.ReportViewer.Common.resources.dll_4" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_4" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_4" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_4" Component_="Microsoft.ReportViewer.Design.resources.dll_4" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_4" Component_="Microsoft.ReportViewer.WinForms.resources.dll_4" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_5" Component_="Microsoft.ReportViewer.Common.resources.dll_5" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_5" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_5" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_5" Component_="Microsoft.ReportViewer.Design.resources.dll_5" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_5" Component_="Microsoft.ReportViewer.WinForms.resources.dll_5" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.MSXML.dll" Component_="Microsoft.MSXML.dll" FileName="MICROS~1.DLL|Microsoft.MSXML.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.MSXML.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.dll" Component_="Microsoft.ReportViewer.Common.dll" FileName="MICROS~2.DLL|Microsoft.ReportViewer.Common.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.ReportViewer.Common.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.dll" Component_="Microsoft.ReportViewer.DataVisualization.dll" FileName="MICROS~3.DLL|Microsoft.ReportViewer.DataVisualization.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.dll" Component_="Microsoft.ReportViewer.Design.dll" FileName="MICROS~4.DLL|Microsoft.ReportViewer.Design.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.ReportViewer.Design.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.ProcessingObjectModel.dll" Component_="Microsoft.ReportViewer.ProcessingObjectModel.dll" FileName="MICROS~5.DLL|Microsoft.ReportViewer.ProcessingObjectModel.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.dll" Component_="Microsoft.ReportViewer.WinForms.dll" FileName="MICROS~6.DLL|Microsoft.ReportViewer.WinForms.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.ReportViewer.WinForms.dll" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Types.dll" Component_="Microsoft.SqlServer.Types.dll" FileName="MICROS~7.DLL|Microsoft.SqlServer.Types.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.SqlServer.Types.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualStudio.OLE.Interop.dll" Component_="Microsoft.VisualStudio.OLE.Interop.dll" FileName="MICROS~8.DLL|Microsoft.VisualStudio.OLE.Interop.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualStudio.Shell.Interop.8.0.dll" Component_="Microsoft.VisualStudio.Shell.Interop.8.0.dll" FileName="MICROS~9.DLL|Microsoft.VisualStudio.Shell.Interop.8.0.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualStudio.Shell.Interop.dll" Component_="Microsoft.VisualStudio.Shell.Interop.dll" FileName="MICRO~10.DLL|Microsoft.VisualStudio.Shell.Interop.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualStudio.TextManager.Interop.8.0.dll" Component_="Microsoft.VisualStudio.TextManager.Interop.8.0.dll" FileName="MICRO~11.DLL|Microsoft.VisualStudio.TextManager.Interop.8.0.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll" SelfReg="false"/>
+    <ROW File="Microsoft.VisualStudio.TextManager.Interop.dll" Component_="Microsoft.VisualStudio.TextManager.Interop.dll" FileName="MICRO~12.DLL|Microsoft.VisualStudio.TextManager.Interop.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_6" Component_="Microsoft.ReportViewer.Common.resources.dll_6" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_6" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_6" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_6" Component_="Microsoft.ReportViewer.Design.resources.dll_6" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_6" Component_="Microsoft.ReportViewer.WinForms.resources.dll_6" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_7" Component_="Microsoft.ReportViewer.Common.resources.dll_7" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_7" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_7" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_7" Component_="Microsoft.ReportViewer.Design.resources.dll_7" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_7" Component_="Microsoft.ReportViewer.WinForms.resources.dll_7" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="msvcr120.dll" Component_="msvcr120.dll" FileName="msvcr120.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\SqlServerTypes\x64\msvcr120.dll" SelfReg="false"/>
+    <ROW File="SqlServerSpatial140.dll" Component_="SqlServerSpatial140.dll" FileName="SQLSER~1.DLL|SqlServerSpatial140.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll" SelfReg="false"/>
+    <ROW File="msvcr120.dll_1" Component_="msvcr120.dll_1" FileName="msvcr120.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\SqlServerTypes\x86\msvcr120.dll" SelfReg="false"/>
+    <ROW File="SqlServerSpatial140.dll_1" Component_="SqlServerSpatial140.dll_1" FileName="SQLSER~1.DLL|SqlServerSpatial140.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll" SelfReg="false"/>
+    <ROW File="stdole.dll" Component_="stdole.dll" FileName="stdole.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\stdole.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_8" Component_="Microsoft.ReportViewer.Common.resources.dll_8" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_8" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_8" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_8" Component_="Microsoft.ReportViewer.Design.resources.dll_8" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_8" Component_="Microsoft.ReportViewer.WinForms.resources.dll_8" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.resources.dll_9" Component_="Microsoft.ReportViewer.Common.resources.dll_9" FileName="MICROS~1.DLL|Microsoft.ReportViewer.Common.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.resources.dll_9" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_9" FileName="MICROS~2.DLL|Microsoft.ReportViewer.DataVisualization.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.resources.dll_9" Component_="Microsoft.ReportViewer.Design.resources.dll_9" FileName="MICROS~3.DLL|Microsoft.ReportViewer.Design.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.resources.dll_9" Component_="Microsoft.ReportViewer.WinForms.resources.dll_9" FileName="MICROS~4.DLL|Microsoft.ReportViewer.WinForms.resources.dll" Attributes="0" SourcePath="..\..\..\..\Desktop\Proyecto final final\DiseñoJunio\DiseñoJunio\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="151"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Setup Files" Languages="es;en" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_es.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="LicenseAgreementDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\LicenseAgreementDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="PreparePrereqDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\PreparePrereqDlg.aip"/>
+    <ROW Fragment="PrerequisitesDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\PrerequisitesDlg.aip"/>
+    <ROW Fragment="ProgressPrereqDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\ProgressPrereqDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;light\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;light\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomePrereqDlg.aip" Path="&lt;AI_THEMES&gt;light\fragments\WelcomePrereqDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Se está eliminando los ficheros extraídos del archivo" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Se está eliminando los ficheros extraídos del archivo" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Se está extrayendo ficheros del archivo" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Se está extrayendo ficheros del archivo" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="FatalError" Control="Cancel" Type="PushButton" X="1" Y="1" Width="1" Height="1" Attributes="1" Text="[ButtonText_Cancel]" Order="300" TextLocId="-" MsiKey="FatalError#Cancel" Options="1"/>
+    <ROW Dialog_="FatalError" Control="Finish" Type="PushButton" X="330" Y="243" Width="56" Height="17" Attributes="3" Text="[ButtonText_Finish]" Order="400" TextLocId="-" MsiKey="FatalError#Finish" Options="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="LicenseAgreementDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control="AgreementText" Type="ScrollableText" X="20" Y="45" Width="358" Height="137" Attributes="7" Text="..\..\..\..\Downloads\Software creado y desarrollado por el equipo.rtf" Order="400" TextLocId="-" MsiKey="LicenseAgreementDlg#AgreementText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control_="Next" Event="NewDialog" Argument="PrerequisitesDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Back" Event="NewDialog" Argument="WelcomePrereqDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="201"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="202"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="2" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="3" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="4" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="2" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="LicenseAgreementDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="LicenseAgreementDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="4" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AppSearchEx" Type="1" Source="Prereq.dll" Target="DoAppSearchEx"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="CustomActionData" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="LaunchApp"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="AI_ExePath"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="DiseoJunio.exe"/>
+    <ROW Feature_="MainFeature" Component_="DiseoJunio.exe.config"/>
+    <ROW Feature_="MainFeature" Component_="EnvDTE.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_3"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_3"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_3"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_3"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_4"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_4"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_4"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_4"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_5"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_5"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_5"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_5"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.MSXML.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.ProcessingObjectModel.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.SqlServer.Types.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualStudio.OLE.Interop.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualStudio.Shell.Interop.8.0.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualStudio.Shell.Interop.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualStudio.TextManager.Interop.8.0.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.VisualStudio.TextManager.Interop.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_6"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_6"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_6"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_6"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_7"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_7"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_7"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_7"/>
+    <ROW Feature_="MainFeature" Component_="msvcr120.dll"/>
+    <ROW Feature_="MainFeature" Component_="SqlServerSpatial140.dll"/>
+    <ROW Feature_="MainFeature" Component_="msvcr120.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="SqlServerSpatial140.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="stdole.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_8"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_8"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_8"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_8"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Common.resources.dll_9"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.DataVisualization.resources.dll_9"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.Design.resources.dll_9"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.ReportViewer.WinForms.resources.dll_9"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="logo.exe" SourcePath="..\..\..\..\Downloads\logo.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1397"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="1399" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="1398"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="103"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+    <ROW Action="LicenseAgreementDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3" MsiKey="WelcomeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] no se puede instalar en [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] no se puede instalar en [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] no se puede instalar en [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_DOTNET_VERSION &gt;= AI_REQUIRED_DOTNET_VERSION" Description="[ProductName] no se puede instalar en sistemas con una versión de .NET Framework inferior a [AI_REQUIRED_DOTNET_DISPLAY]." DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="Este paquete sólo se puede ejecutar desde el proceso de arranque" DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] no se puede instalar en [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="AdvancedInstaller" Root="-1" Key="Software\Caphyon\Advanced Installer" Name="\"/>
+    <ROW Registry="Caphyon" Root="-1" Key="Software\Caphyon" Name="\"/>
+    <ROW Registry="LZMA" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA" Name="\"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductCode" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]" Name="\"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="ProductVersion" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="ClnicaDentalBD.exe" Directory_="SHORTCUTDIR" Name="CLÍNIC~1.EXE|Clínica Dental BD.exe" Component_="DiseoJunio.exe" Target="[#DiseoJunio.exe]" Description="Clínica Dental BD.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="ClnicaDentalBD.exe_1" Directory_="DesktopFolder" Name="CLÍNIC~1.EXE|Clínica Dental BD.exe" Component_="DiseoJunio.exe" Target="[#DiseoJunio.exe]" Description="Clínica Dental BD.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="light"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="B96F93FA27E74B02866727AAE83982D0" DisplayName=".NET Framework 4.8" SetupFileUrl="https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe" Location="1" ExactSize="117380440" WinNTVersions="Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 8 x86, Windows 10 version 1507 x86, Windows 10 version 1511 x86, Windows 10 version 1903 x86, Windows 10 version 1909 x86, Windows 10 version 2004 x86, Windows 10 version 20H2 x86, Windows 10 version 21H1 x86, Windows 10 version 21H2 x86" WinNT64Versions="Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64, Windows 8 x64, Windows 10 version 1507 x64, Windows 10 version 1511 x64, Windows 10 version 1903 x64, Windows 10 version 1909 x64, Windows 10 version 2004 x64, Windows 10 version 20H2 x64, Windows 10 version 21H1 x64, Windows 10 version 21H2 x64, Windows Server 2022 x64, Windows 11 x64" Operator="1" NoUiComLine="/q /norestart" Options="xy" MD5="aebcb9fcafa2becf8bb30458a7e1f0a2" TargetName=".NET Framework 4.8"/>
+    <ATTRIBUTE name="PrereqsOrder" value="B96F93FA27E74B02866727AAE83982D0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="B96F93FA27E74B02866727AAE83982D0Release" Prereq="B96F93FA27E74B02866727AAE83982D0" SearchType="9" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G528048" Order="1" Property="PreReqSearch_B96F93FA27E74B02866727"/>
+  </COMPONENT>
+</DOCUMENT>
